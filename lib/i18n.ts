@@ -52,7 +52,7 @@ const hu: Translations = {
     reservation: "Foglalás",
   },
   hero: {
-    title: "Fedezd fel a koktélok művészetét",
+    title: "Fedezd fel a koktélok világát",
     subtitle: "a DejaVu Cocktail barral",
     cta: "Foglalás",
   },
@@ -72,9 +72,65 @@ const hu: Translations = {
   },
 };
 
-// Placeholder: same as Hungarian until you add Romanian/English translations.
-const ro: Translations = hu;
-const en: Translations = hu;
+// Romanian translations.
+const ro: Translations = {
+  nav: {
+    drinks: "Băuturi",
+    about: "Despre noi",
+    contact: "Contact",
+    reservation: "Rezervare",
+  },
+  hero: {
+    title: "Descoperă lumea cocktailurilor",
+    subtitle: "cu DejaVu Cocktail bar",
+    cta: "Rezervare",
+  },
+  drinks: {
+    title: "Băuturile noastre",
+    subtitle: "Cocktailuri premium, arome unice",
+    viewRecipe: "Vezi rețeta",
+  },
+  cta: {
+    title: "Hai să creăm împreună o seară de neuitat",
+    description:
+      "Barul nostru mobil vine la tine – evenimente, nunti, petreceri corporate.",
+    button: "Solicită rezervare",
+  },
+  footer: {
+    tagline: "DejaVu Cocktail bar – arta cocktailurilor în mișcare.",
+    rights: "Toate drepturile rezervate.",
+  },
+};
+
+// English translations.
+const en: Translations = {
+  nav: {
+    drinks: "Drinks",
+    about: "About us",
+    contact: "Contact",
+    reservation: "Reservation",
+  },
+  hero: {
+    title: "Discover the world of cocktails",
+    subtitle: "with DejaVu Cocktail bar",
+    cta: "Reservation",
+  },
+  drinks: {
+    title: "Our drinks",
+    subtitle: "Premium cocktails, unique flavours",
+    viewRecipe: "View recipe",
+  },
+  cta: {
+    title: "Let’s create a memorable evening together",
+    description:
+      "Our mobile bar comes to you – events, weddings, corporate parties.",
+    button: "Request reservation",
+  },
+  footer: {
+    tagline: "DejaVu Cocktail bar – the art of cocktails on the move.",
+    rights: "All rights reserved.",
+  },
+};
 
 export const translations: Record<Locale, Translations> = { hu, ro, en };
 

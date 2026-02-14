@@ -156,7 +156,7 @@ export function LandingPage() {
         id="contact"
         className="scroll-mt-20 px-4 py-16 md:px-10 md:py-24 lg:px-16"
       >
-        <div className="mx-auto max-w-4xl rounded-3xl border border-amber-500/20 bg-gradient-to-br from-amber-500/10 to-transparent p-8 text-center md:p-12">
+        <div className="mx-auto max-w-4xl rounded-3xl border border-amber-500/20 bg-linear-to-br from-amber-500/10 to-transparent p-8 text-center md:p-12">
           <h2 className="text-2xl font-bold text-white md:text-3xl">
             {t.cta.title}
           </h2>

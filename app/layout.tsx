@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "DejaVu Cocktail bar | Mobil koktélbár",
   description:
-    "DejaVu Cocktail bar – fedezd fel a koktélok művészetét. Prémium mobil bár rendezvényekre, lagzikra, céges bulikra.",
+    "DejaVu Cocktail bar – fedezd fel a koktélok világát. Prémium mobil bár rendezvényekre, lagzikra, céges bulikra.",
 };
 
 export default function RootLayout({
