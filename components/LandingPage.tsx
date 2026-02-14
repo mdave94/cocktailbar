@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { Header } from "./Header";
+import { Navbar } from "./Navbar";
 
 const cocktails = [
   {
@@ -33,7 +33,7 @@ export function LandingPage() {
 
   return (
     <div className="min-h-screen ">
-      <Header />
+      <Navbar />
 
       {/* Hero: full-bleed video with text overlay bottom-left (reference style) */}
       <section
@@ -118,7 +118,7 @@ export function LandingPage() {
                   opacity: 0,
                 }}
               >
-                <div className="relative aspect-[4/3] overflow-hidden">
+                <div className="relative aspect-4/3 overflow-hidden">
                   <Image
                     src={cocktail.image}
                     alt={cocktail.name}
@@ -150,6 +150,7 @@ export function LandingPage() {
           </div>
         </div>
       </section>
+      
 
       {/* CTA */}
       <section
