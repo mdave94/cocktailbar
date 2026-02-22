@@ -48,7 +48,7 @@ export function LandingPage() {
             playsInline
             className="h-full w-full object-cover"
           >
-            <source src="/videos/herovideo.mp4" type="video/mp4" />
+            <source src="/videos/DejaVu.mp4" type="video/mp4" />
           </video>
         </div>
         {/* Gradient overlay: darker at bottom for text readability */}
